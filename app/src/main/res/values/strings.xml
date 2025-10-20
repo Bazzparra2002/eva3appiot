@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Eva2appIoT</string>
+        <string name="nombre">Nombre</string>
+        <string name="email">Email</string>
+        <string name="contrasena">Contraseña</string>
+        <string name="registrar">Registrar</string>
+        <string name="ya_tienes_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+
+
+</resources>
