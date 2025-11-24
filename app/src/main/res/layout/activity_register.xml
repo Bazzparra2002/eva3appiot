@@ -18,8 +18,8 @@
 
         <ImageView
             android:id="@+id/logoRegister"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
             android:src="@drawable/logoromina" />
 
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            android:text="Registrate"
+            android:text="Crea una cuenta"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -77,7 +77,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="32dp"
-                    android:paddingHorizontal="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingHorizontal="40dp"
                     android:paddingVertical="10dp"
                     android:text="@string/registrar"
                     android:textStyle="bold" />

@@ -15,14 +15,13 @@
         android:paddingTop="70dp"
         tools:ignore="MissingConstraints">
 
-
         <ImageView
             android:id="@+id/logoLogin"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
-            android:src="@drawable/logoromina" />
-
+            android:src="@drawable/logoromina"
+            android:contentDescription="Logo" />
 
         <TextView
             android:id="@+id/textoBienvenida"
@@ -33,7 +32,6 @@
             android:text="Bienvenido a Romina APP"
             android:textSize="24sp"
             android:textStyle="bold" />
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -57,7 +55,7 @@
                         android:id="@+id/etEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp"
+                        android:layout_marginBottom="5dp"
                         android:ems="10"
                         android:hint="Email"
                         android:inputType="textEmailAddress" />
@@ -74,6 +72,10 @@
                         android:id="@+id/checkBox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:paddingHorizontal="3dp"
+                        android:paddingVertical="10dp"
                         android:text="Mantener sesión activa" />
 
                     <Button
@@ -86,11 +88,12 @@
                         android:paddingVertical="10dp"
                         android:text="Iniciar Sesión"
                         android:textStyle="bold" />
+
                 </LinearLayout>
 
             </FrameLayout>
-        </androidx.cardview.widget.CardView>
 
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvForgot"
@@ -109,5 +112,12 @@
             android:text="¿No tienes cuenta? Regístrate"
             android:layout_marginTop="8dp" />
 
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btnGoogleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

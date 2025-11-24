@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1005977601924",
+    "project_id": "eva2appiot",
+    "storage_bucket": "eva2appiot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005977601924:android:aee0f43ac1e673f9cb3fd1",
+        "android_client_info": {
+          "package_name": "com.example.eva2appiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005977601924-ur964r2tvv15t1qjh22ts01ivo2aql7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eva2appiot",
+            "certificate_hash": "02f55930660b446a9311720bbdbf069889554e51"
+          }
+        },
+        {
+          "client_id": "1005977601924-hlq5uis7qmb9sjkfcso91md5m58lhe76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbnyCPZraJcTi0-XnY-BYljLuMd4sYVPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005977601924-hlq5uis7qmb9sjkfcso91md5m58lhe76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
